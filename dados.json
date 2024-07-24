@@ -1,0 +1,24 @@
+{
+  "product": {
+    "truffles": [
+      { "image": "./static/images/trufas/1.jpg", "name": "trufa", "id": 0 },
+      { "image": "./static/images/trufas/2.jpeg", "name": "trufa", "id": 1 },
+      { "image": "./static/images/trufas/3.jpg", "name": "trufa", "id": 2 },
+      { "image": "./static/images/trufas/4.jpeg", "name": "trufa", "id": 3  },
+      { "image": "./static/images/trufas/5.jpg", "name": "trufa", "id": 4 },
+      { "image": "./static/images/trufas/6.jpg", "name": "trufa", "id": 5 },
+      { "image": "./static/images/trufas/7.jpeg", "name": "trufa", "id": 6 }
+    ],
+    "cakes": [
+      { "image": "./static/images/bolos de pote/1.jpeg", "name": "bolo no pote", "preco": 19.99, "id": 0 },
+      { "image": "./static/images/bolos de pote/2.jpeg", "name": "bolo no pote", "preco": 29.99, "id": 1 },
+      { "image": "./static/images/bolos de pote/3.jpeg", "name": "bolo no pote", "preco": 39.99, "id": 2 },
+      { "image": "./static/images/bolos de pote/4.jpeg", "name": "bolo no pote", "preco": 19.99, "id": 3 },
+      { "image": "./static/images/bolos de pote/5.jpeg", "name": "bolo no pote", "preco": 29.99, "id": 4 },
+      { "image": "./static/images/bolos de pote/6.jpeg", "name": "bolo no pote", "preco": 39.99, "id": 5 },
+      { "image": "./static/images/bolos de pote/7.jpeg", "name": "bolo no pote", "preco": 19.99, "id": 6 },
+      { "image": "./static/images/bolos de pote/8.jpeg", "name": "bolo no pote", "preco": 29.99, "id": 7 },
+      { "image": "./static/images/bolos de pote/9.jpeg", "name": "bolo no pote", "preco": 39.99, "id": 8 }
+    ]
+  }
+}

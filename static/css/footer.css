@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 80px;
+  background-color: white;
+  padding: 1em;
+}
+
+.footer__redes-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 45px auto;
+}
+
+.footer__redes-wrapper li {
+  display: inline-block;
+}
+
+.footer__redes-wrapper li:hover {
+  color: var(--gray);
+}
+
+.footer__link {
+  font-family: var(--title-font);
+  color: var(--light-gray);
+}
+
+.fab {
+  margin-right: 8px;
+}
+
+.footer__texto {
+  color: var(--light-gray);
+  text-align: center;
+}

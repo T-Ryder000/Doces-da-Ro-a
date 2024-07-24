@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('./header.css');
+@import url('./banner.css');
+@import url('./product.css');
+@import url('./footer.css');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  font-family: "Lobster Two", sans-serif !important;
+  background-image: url(../images/fundoBanner.jpg);
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  background-color: #ebe6ea;
+}
+
+li, a{
+  text-decoration: none !important;
+  list-style: none !important;
+}

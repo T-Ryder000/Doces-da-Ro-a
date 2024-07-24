@@ -1,0 +1,26 @@
+.product-container{
+  margin-top: 50px;
+}
+.product-container-title{
+  text-align: center;
+  font-size: 44px;
+  margin-bottom: 50px;
+}
+
+.product-container-list{
+  column-count: 4;
+  column-gap: 10px;
+}
+
+.product-item{
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:900px){
+  .product-container-list{
+    column-count: 2;
+  }
+  
+}

@@ -1,0 +1,106 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
+}
+
+.header-container {
+  /* max-height: 100px; */
+  max-width: 900px;
+  margin: auto;
+
+  border-bottom: 2px solid black;
+}
+
+.header-container, .header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header-nav-list > .header-nav-item {
+  font-size: 20px;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 150px;
+  border-radius: 50%;
+  padding-top: 0.3em;
+}
+
+.header-nav {
+  width: 50%;
+}
+
+.header-nav-link{
+  transition: all 0.3s;
+  color: white;
+}
+.header-nav-link:hover, .header-nav-item:hover{
+ transform: scale(1.1);
+ transition: all 0.3s;
+ color: #ffa8ee;;
+}
+
+
+/* mobile */
+
+
+.accordion{
+  border: none !important;
+  background-color: black!important;
+  display: none;
+}
+.accordion-item{
+  border: none !important;
+  background-color: black !important;
+}
+
+/* Remove a borda e o contorno em estados específicos */
+.accordion-button.header-btn-menu_mobile:focus,
+.accordion-button.header-btn-menu_mobile:active,
+.accordion-button.header-btn-menu_mobile:hover {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important; /* Remove qualquer sombra que possa parecer uma borda */
+}
+
+.header-btn-menu_mobile{
+  width: 50px !important;
+  background-color: black !important;
+  color: white !important;
+  border: none; /* Remove a borda padrão */
+  outline: none; /* Remove o contorno de foco, se houver */
+}
+
+.header-nav-item_mobile{
+  padding: 0.5em;
+}
+.header-nav-link_mobile{
+  color: white;
+  transition: all 0.3s;
+}
+
+.header-nav-link_mobile:hover{
+  color: #ffa8ee;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width:900px){
+  header {
+    padding: 1em 0;
+  }
+  .header-nav{
+    display: none;
+  }  
+  .accordion{
+    display: block;
+  }
+
+}

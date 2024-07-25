@@ -3,6 +3,7 @@
 @import url('./header.css');
 @import url('./banner.css');
 @import url('./product.css');
+@import url('./about.css');
 @import url('./footer.css');
 
 *{
@@ -23,6 +24,7 @@ main{
   max-width: 900px;
   margin: auto;
   background-color: #ebe6ea;
+  border-radius: 24px;
 }
 
 li, a{
